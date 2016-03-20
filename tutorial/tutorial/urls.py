@@ -1,8 +1,8 @@
 from django.conf.urls import url, include
 from rest_framework import routers
-from quickstart import views
 from django.conf.urls import url
 from django.contrib import admin
+from quickstart import views
 
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
