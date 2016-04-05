@@ -17,5 +17,5 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
 class QuestionSerilizer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Question
-        fields = ('question', 'status')
+        fields = ('question_text',)
 
